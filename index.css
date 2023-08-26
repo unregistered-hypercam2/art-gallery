@@ -1,3 +1,42 @@
-em {
-    color:rgb(30, 141, 231)
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 950px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: #111;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+li a:hover{
+    background-color: #111;
+    color: white;
+
+}
+div{
+    background-color: grey;
+    margin-left: 16%;
+    padding: 1px 16px;
+    height: fit-content;
+    color: white;
+    position: absolute;
+    top: -12px; 
+    right: 0;
+    width: 1
+}
+
+body{
+    background-color: grey;
 }
