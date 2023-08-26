@@ -1,42 +1,34 @@
-ul{
-    text-align: center;
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    height: 950px;
-    background-color: white;
-    position: absolute;
+    background-color: rgb(255, 255, 255);
     top: 0;
     left: 0;
-    overflow: auto;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
 }
 
-li a{
+li {
+    display: inline-block; /* Display the list items in a row */
+    margin: 0 10px; /* Add spacing between links */
+}
+
+li a {
     display: block;
     color: #111;
     padding: 14px 16px;
     text-decoration: none;
-    font-style: oblique;
+    font-style: normal;
+    transition: color 0.3s; 
 }
 
-li a:hover{
-    background-color: #111;
-    color: white;
-
-}
-div{
-    background-color: grey;
-    margin-left: 16%;
-    padding: 1px 16px;
-    height: fit-content;
-    color: white;
-    position: absolute;
-    top: -12px; 
-    right: 0;
-    width: 1
+li a:hover {
+    color: rgb(95, 159, 255);
 }
 
 body{
-    background-color: grey;
+    color: black;
 }
