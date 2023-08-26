@@ -1,34 +1,60 @@
-ul {
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
-    top: 0;
-    left: 0;
-    width: 100%;
+    box-sizing: border-box;
     overflow: hidden;
+    user-select: none;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root{
+  --border: white;
+}
+
+.lborder{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
     position: fixed;
-    text-align: center;
+    background-color: var(--border)
 }
 
-li {
-    display: inline-block; /* Display the list items in a row */
-    margin: 0 10px; /* Add spacing between links */
+.lback{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url('68936009_p03.jpg');
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
 }
 
-li a {
-    display: block;
-    color: #111;
-    padding: 14px 16px;
+nav{
+    background: white;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ul{
+
+}
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+    background-color: white;
+    padding: 5px 0px 5px 5px;
+}
+
+li a{
+    background-color: white;
+    font-size: 25px;
     text-decoration: none;
-    font-style: normal;
-    transition: color 0.3s; 
+    color:black;
 }
-
-li a:hover {
-    color: rgb(95, 159, 255);
-}
-
-body{
-    color: black;
+li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.1s;
+    scroll-behavior: smooth;
 }
