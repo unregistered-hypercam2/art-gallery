@@ -7,10 +7,35 @@
     align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display:wght@500&display=swap');
 
 :root {
     --border: rgb(255, 255, 255);
+}
+
+.blackbg {
+    padding-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    align-self: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+}
+
+.aboutMe { 
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    position: fixed;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
 }
 
 .lborder {
